@@ -1,0 +1,21 @@
+.navbar{
+    margin-bottom: 63px;
+}
+.form-control{
+    width: 400px;
+    background-color: #f1f1f1;
+}
+.carousal-user-defined{
+    border-radius: 25px;
+    background-color: #FEEAE9;
+}
+button{
+    padding: 10px 25px;
+    border: none;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    color: white;
+}
+.price{
+    color: #FF136F;
+}
