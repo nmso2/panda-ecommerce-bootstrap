@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 51px;
+    font-weight: 700;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+}
+
 .navbar{
     margin-bottom: 63px;
 }
@@ -9,12 +29,29 @@
     background-color: #FEEAE9;
 }
 .caro-button{
-    padding: 10px 25px;
-    border: none;
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-    border-radius: 6px;
-    color: white;
 }
 .price{
     color: #FF136F;
+    font-size: 41px;
+    font-weight: 500;
+}
+.cat1{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.cat2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);}
+.cat3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1 h2, .cat2 h2, .cat3 h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.customize-background{
+    background: #F4F4F4;
 }
